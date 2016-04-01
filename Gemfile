@@ -6,7 +6,9 @@ gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'sass-rails', '~> 5.0'
+gem 'autoprefixer-rails', '~> 6.3', '>= 6.3.5'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -45,3 +47,8 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  gem 'pg', '~> 0.18.4'
+  gem 'rails_12factor', '~> 0.0.3'
+  
+end
