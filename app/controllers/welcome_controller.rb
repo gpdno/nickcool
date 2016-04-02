@@ -4,4 +4,12 @@ class WelcomeController < ApplicationController
         
     end
     
+    def infinity
+        
+    end
+    
+    def royal
+        
+    end
+    
 end
