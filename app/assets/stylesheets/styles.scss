@@ -1,0 +1,27 @@
+body {
+    background-color: #FFEDAD;
+}
+.jumbotron {
+	margin:0 !important;
+    background-color: #F5A623;
+	background: url("https://s3.amazonaws.com/nickcool/nickcool_wide.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: #F5A623;
+}
+
+.navbar-default {
+	background-color: #F5A623;
+	border-color: #fff;
+	border-bottom: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #B40404;
+}
+
+.navbar-brand {
+    color: #000;
+}
