@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get 'clash', to: 'games#clash'
   get 'royal', to: 'games#royal'
 
+  get 'music', to: 'music#index'
+  get 'programming', to: 'programming#index'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
